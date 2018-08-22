@@ -302,6 +302,10 @@ main {
     main .lg-heading {
       margin-top: 2.5rem;
       font-size: 4rem; }
+  .menu-branding .portrait {
+    background: url("../img/portrait_small.jpg");
+    width: 135px;
+    height: 135px; }
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {
