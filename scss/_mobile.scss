@@ -17,6 +17,10 @@
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  main#contact h1 {
+    text-align: center;
+  }
 }
 
 //Tables y Laptops pequeñas
