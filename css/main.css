@@ -215,7 +215,8 @@ main {
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
       background: #eece1a;
-      color: #000; }
+      color: #000;
+      transition: all 1s ease-out; }
       .boxes div:hover span {
         color: #000; }
 
@@ -287,7 +288,11 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); }
   main#contact h1 {
-    font-size: 4rem; } }
+    font-size: 4rem; }
+  main#work h1 {
+    font-size: 4rem; }
+  .boxes div {
+    font-size: 1.8rem; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -299,6 +304,5 @@ main {
       font-size: 4rem; }
   .projects {
     grid-template-columns: 1fr; }
-  main#work,
-  main#contact h1 {
-    font-size: 4rem; } }
+  .boxes div {
+    font-size: 1.5rem; } }
